@@ -24,6 +24,7 @@ app()->booting(function () {
     $config = config();
     $config->load(dirname(__DIR__) . '/config/app.php');
     $config->load(dirname(__DIR__) . '/config/assets.php');
+    $config->load(dirname(__DIR__) . '/config/database.php');
     $config->load(dirname(__DIR__) . '/config/filesystems.php');
     $config->load(dirname(__DIR__) . '/config/view.php');
 });
